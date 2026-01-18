@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Alchemist's Brew | Coffee & Elixirs</title>
+    <meta name="description"
+        content="Precision-brewed coffee and mystical elixirs in an atmosphere of vintage science and alchemy.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Space+Mono&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-flask"></i>
+            <span>Alchemist's Brew</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#lab" data-text="The Lab">The Lab</a></li>
+            <li><a href="#formulas" data-text="Formulas">Formulas</a></li>
+            <li><a href="#elements" data-text="Elements">Elements</a></li>
+            <li><a href="#visit" data-text="Visit">Visit</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="lab" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="eyebrow">Est. 1893</span>
+                <h1 class="glitch-text" data-text="Precision in Every Drop">Precision in <br>Every Drop</h1>
+                <p class="subtitle">Where ancient alchemy meets modern extraction.</p>
+                <a href="#formulas" class="btn btn-primary">
+                    <span class="btn-text">Discover Formulas</span>
+                    <span class="btn-icon"><i class="fa-solid fa-arrow-down-long"></i></span>
+                </a>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="formulas" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2>The Formulas</h2>
+                    <p>Potions brewed for clarity and vitality.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <!-- Item 1 -->
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Void Espresso</h3>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p class="item-desc">Double shot espresso, activated charcoal, vanilla bean.</p>
+                        <div class="item-meta">
+                            <span><i class="fa-solid fa-fire"></i> Hot</span>
+                            <span><i class="fa-solid fa-droplet"></i> 2oz</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Gold Elixir</h3>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <p class="item-desc">Turmeric, ginger, honey, steamed oat milk, black pepper dust.</p>
+                        <div class="item-meta">
+                            <span><i class="fa-solid fa-fire"></i> Hot</span>
+                            <span><i class="fa-solid fa-mug-hot"></i> 12oz</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Quintessence Cold Brew</h3>
+                            <span class="price">$6.00</span>
+                        </div>
+                        <p class="item-desc">24-hour immersion, nitrogen infused, orange peel essence.</p>
+                        <div class="item-meta">
+                            <span><i class="fa-solid fa-snowflake"></i> Cold</span>
+                            <span><i class="fa-solid fa-glass-water"></i> 16oz</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3>Philosopher's Matcha</h3>
+                            <span class="price">$5.75</span>
+                        </div>
+                        <p class="item-desc">Ceremonial grade matcha, lavender syrup, coconut milk.</p>
+                        <div class="item-meta">
+                            <span><i class="fa-solid fa-leaf"></i> Hot/Cold</span>
+                            <span><i class="fa-solid fa-bowl-rice"></i> 12oz</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="elements" class="about-section">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="about-image.png" alt="Syphon coffee brewing" class="about-img">
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-number">02</span>
+                        <h2>The Elements</h2>
+                        <p>We believe coffee is a science. Our laboratory is dedicated to the pursuit of the perfect
+                            extraction. By controlling every variable—temperature, pressure, time, and grind—we
+                            transmute raw beans into liquid gold.</p>
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-check"></i> Single-origin beans sourced from high altitudes</li>
+                            <li><i class="fa-solid fa-check"></i> Water filtered through reverse osmosis</li>
+                            <li><i class="fa-solid fa-check"></i> Precision roasting in small batches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit/Contact Section -->
+        <section id="visit" class="visit-section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-number">03</span>
+                    <h2>Visit the Lab</h2>
+                </div>
+
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <h3>Sector 7 (Downtown)</h3>
+                        <p>1084 Copper Avenue<br>Metropolis, NY 10012</p>
+                        <div class="hours">
+                            <p><span>Mon-Fri:</span> 07:00 - 19:00</p>
+                            <p><span>Sat-Sun:</span> 08:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <h3>Join the Inner Circle</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-secondary">Transmute</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-flask"></i>
+                    <span>The Alchemist's Brew</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <p class="copyright">&copy; 2024 The Alchemist's Brew. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
